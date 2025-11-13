@@ -108,10 +108,7 @@ else:
 output = "Take green apples!" if targetFruit ==  availableFruit else "Take pineapples or any cirtic fruit"
 
 
-
-
-
-
+output = "hello" if lastname == "okumu" else "its not okumu"
 
 
 print("================================================")
