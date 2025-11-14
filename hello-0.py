@@ -21,6 +21,7 @@ VARIABLE:
 firstName = "Jane" # global vairable
 lastName = "Jules" # global variable
 
+
 # standard Input
 # secondName = input("Kindly enter secondName: ") 
 

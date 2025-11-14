@@ -107,10 +107,43 @@ else:
 #  ternary operator
 output = "Take green apples!" if targetFruit ==  availableFruit else "Take pineapples or any cirtic fruit"
 
+"""
+Data Types: 
+    - boolean: stores either True or False
+    - number [ int, float, complex]
+    - Strings
+    - lists
+    - tuples
+    - dictionaries
+    - set
+ENUMS
 
-output = "hello" if lastname == "okumu" else "its not okumu"
+"""
+"""
+ precede it with is..
+"""
 
+isOpen = True # boolean
+isLoading = False # boolean
+ 
+# number [ int, float, complex]
+# int:  -ve infinity to +ve infinity
+num1 = 10
+num2 = -11
+num3 = "100"
+num4 = int(num3) # type casting
 
+# float(decimal number): -ve infinity to +ve infinity  
+lat = -0.234
+lng = 38.456
+num3 = "3.1456"
+num4 = float(num3) # type casting
+
+# complex: eg square root of 2 =>
+root = 2j
+
+compNum = complex(4) 
+output = type(num4)
 print("================================================")
 print(output)
 print("================================================")
